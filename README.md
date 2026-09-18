@@ -43,7 +43,7 @@ Repository for part 1 of my Web Development Project
 - added a logo for my website's webpages and changed the navigation pane to stop being in an unordered list format
 - finished updating my external css file and linked it to all 5 webpages and made ithe webpages to be bakery themed that matches my website's name
 - finished top-ups and errors on the CSS file so the website can work well on devices  of different screen sizes mobile, tablets and desktops and work in different browsers
-- 
+- I also created a word document and pasted the updated html codes and css stylesheet codes there and included screenshots of the website running using different devices and browsers
 - 
 
 
