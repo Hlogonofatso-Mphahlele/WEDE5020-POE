@@ -1,110 +1,135 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products & Menu | The Golden Bakery</title>
+
+    <!--Link the products html page to the external CSS stylesheet-->
+    <link rel="stylesheet" href="CSS Files/style.css">
+
 </head>
 <body>
 
     <section>
-<!--Web color-->
-<body bgcolor="#D4A373">
-
     <!--Web header n navigation-->
 
     <header>
+            <!--Web logo-->
+    <div class="logo">        
+    <p>
+        <img src="Images/TGB LOGO.jpg" alt="The Golden Bakery's Logo" width="120">
+    </p>
+    </div>
         <h1>The Golden Bakery</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="products.html">Menu</a></li>
-            <li><a href="enquiries.html">Enquire</a></li>
-            <li><a href="contact.html">Contact Info</a></li>
-            </ul>
+            <a href="index.html">Home</a> &nbsp; | &nbsp;
+            <a href="about.html">About Us</a> &nbsp; | &nbsp;
+            <a href="products.html">Menu</a> &nbsp; | &nbsp;
+            <a href="contact.html">Contact Info</a> &nbsp; | &nbsp;
+            <a href="enquiries.html">Enquiry</a> &nbsp;
+                        
         </nav>
     </section>
     </header>
-    <hr>
+    <hr><hr>
 
     <!--Main Products page contents-->
     <main>
-        <section>
-        <h2>Our Products & Menu</h2>
+        <section class="products-n-menu">
+        <h2><u>Our  Delicious Products & Menu</u></h2>
+        <div class="products-n-menu-grid"></div>
 
         <p>Explore some of the freshly baked products and bakery favs available today.
-            Baked with quality ingridients and lots of love
+           Baked with quality ingridients and lots of love
         </p>
-         <!--Cakes-->
+        </section>
+
+        <section>
+         <!--Cakes Section-->
          <!--Full Cake Menu-->
-        <ul>
-        <h2>Full Cakes</h2>
+        
+        <h2><u>Full Cakes</h2></u></h2>
         <li><h3>Custom Cakes</h3></li>
         <p>Wanna order custom cakes; We got u, we can make beautifully designed cakes for birthdays, graduations, weddings and for any special occasion you have</p>
         <p><strong>From R379.99</strong></p><br>
                  
         <hr>
 
-        <h2>Normal Cakes</h2>
-        <li><h3>Chocolate Cake </h3></li>        
-        <img src="Images/Chocolate Cake.jpg" atl="Chocolate cake" width="100" height="90" align="right"> 
+        <h2><u>Normal Cakes</u></h2>
+        <h3>Chocolate Cake </h3>        
+        <img src="Images/Chocolate Cake.jpg" alt="Chocolate Cake">            
         <p><strong>For R112.99</strong></p>
         <p>Get a rich and moist chocolate cake with a smooth chocalate topping.</p>
         <br clear="All">
         <hr>
         
 
-        <li><h3>Cheese Cake</h3></li>
-        <img src="Images/Cheese Cake.png" atl="Cheese cake" width="115" height="90" align="right">    
+        <h3>Cheese Cake</h3>
+        <article class="products-n-menu-card">
+        <img src="Images/Cheese Cake.png" alt="Cheese Cake">    
         <p><strong>For R109.98</strong></p>         
         <p></p>
         <br clear="All">
+        </article>
         <hr>
                 
          
-        <li><h3>Carrot Cake</h3></li>
-        <img src="Images/Carrot Cake.jpg" atl="Carrot Cake" width="115" height="90" align="right"> 
+        <article class="products-n-menu-card">
+        <h3>Carrot Cake</h3>
+        <img src="Images/Carrot Cake.jpg" alt="Carrot Cake"> 
         <p><strong>For R108.99</strong></p>
         <p>Get this moist carrot cake with walnuts and cream cheese icing</p>
         <br clear="All">
+        </article>
         <hr>
          
-        <li><h3>Lemon Drizzle Cake</h3></li>
-        <img src="Images/Lemoon Drizzle Cake.jpg" atl="Lemon Drizzle Cake" width="115" height="90" align="right"> 
+        <article class="products-n-menu-card">
+        <h3>Lemon Drizzle Cake</h3>
+        <img src="Images/Lemoon Drizzle Cake.jpg" alt="Lemoon Drizzle Cake"> 
         <p><strong>For R105.98</strong></p>
         <p>Enjoy a fresh and zesty lemon cake with a sweet lemon glaze</p>
         <br clear="All">
+        </article>
         <hr>
         
-        <li><h3>Cookies & Cream Cake</h3></li>
-        <img src="Images/Cookies & Cream Cake.jpg" atl="Cookies & Cream Cake" width="115" height="90" align="right"> 
+         <article class="products-n-menu-card">
+        <h3>Cookies & Cream Cake</h3>>
+        <img src="Images/Cookies & Cream Cake.jpg" alt="Cookies n Cream Cake">
         <p>Get urself a delicious vanilla caked loaded with crushed cookies and cream</p>
         <p><b>For R114.99</b></p>
         <br clear="All">
+        </article>
         <hr>
         
-        <li><h3>Red Velvet Cake</h3></li>
-        <img src="Images/Red Velvet Cake.jpg" atl="Red Velvet Cake" width="115" height="90" align="right"> 
+         <article class="products-n-menu-card">
+        <h3>Red Velvet Cake</h3>
+        <img src="Images/Red Velvet Cake.jpg" alt="Red Velvet Cake"> 
         <p><strong>For R116.98</strong></p>
         <p>Enjoy a classic red velvet cake with some cream cheese frosting</p>
         <br clear="All">
+         </article>
         <hr>
          
-        <li><h3>Vanilla Cake</h3></li>
-        <img src="Images/Vanilla Cake.jpg" atl="Vanilla Cake" width="115" height="90" align="right"> 
+        <article class="products-n-menu-card">
+        <h3>Vanilla Cake</h3>
+        <img src="Images/Vanilla Cake.jpg" alt="Vanilla Cake">            
         <p><strong>For R103.88</strong></p>
         <p>Enjoy a light and fluffy vanilla sponge cake, perfect for any celebration</p>
         <br clear="All">
+        </article>
         <hr><hr>
+        </section>
         
         
-
+        <section>
         <!--Cake Slices Menu-->
-        <h2>Cake Slices Menu</h2>
+         
+        <h2><u>Cake Slices Menu</u></h2>
+        <div class="products-n-menu-category">
+        <img src="Images/Cake Slices.jpg" alt="Assorted Cake Slices" width="300">
         <p>If you don't want a full cake its okay, you can also get slices of the cake you want</p>
-
-        <img src="Images/Cake Slices.jpg" width="300" height="250" align="right">
         <li>Chocolate Cake Slice  - <strong>R22.99</strong>
         <li>Red Velvet Cake slice - <strong>R24.99</strong></li>
         <li>Vanilla Cake Slice    - <strong>R22.95</strong></li>
@@ -112,44 +137,55 @@
         <li>Cookies & Cream Slice - <strong>R25.99</strong></li>
         <li>Lemon Drizzle Slice   - <strong>R23.95</strong></li>
         <br clear="All">
+        </div>
         <hr>
+        </section>
         
-
+        <section>
         <!--Breakfast section scones and bread-->
         <!--Scones no need goi tshwara ka leboto heo fetsa ho ja-->
+        
         <h2>Scones</h2>
+        <div class="products-n-menu-category">
         <p>Enjoy some freshly baked baked scones, perfect with tea r coffee. They are sold in packs of 4</p>
-        <img src="Images/Scones.jpg" width="270" height="235" align="right">
+        <img src="Images/Scones.jpg"  alt="Freshly Baked Scones" width="270" height="235">
         <li>classic Sour Milk Scones x4 - <strong>R20.75</strong></li>
         <li>Raisin Scones            x4 - <strong>R23.99</strong></li>
         <li>Blueberry Scones         x4 - <strong>R24.95</strong></li>
         <li>Chocolate chip Scones    x4 - <strong>R24.99</strong></li>
         <li>Raspberry Scones         x4 - <b>R24.95</b></li>
         <br clear="All">
+        </div>
         <hr>
+        </section>
         
-
+        <section>
         <!--Bread-->
-        <h2>Bread Menu</h2>
+        <h2><u>Bread Menu</u></h2>
+        <div class="products-n-menu-category">
         <p>Enjoy freshly baked bread every morning, our bread has that perfect homemade taste & texture you can't find in stores</p>
-        <img src="Images/Breads.jpg" width="275" height="225" align="right">
+        <img src="Images/Breads.jpg" alt="Freshly Baked Bread" width="275" height="225">
         <li>700g Brown Bread loaf - <strong>R12.99</strong></li>
         <li>750g Wholewheat loaf  - <strong>R25.99</strong></li>
         <li>750g White loaf       - <strong>R14.99</strong></li>
         <li>650g Garlic Bread     - <strong>R22.99</strong></li>
         <li>650g Banana Bread     - <strong>R23.95</strong></li>
         <br clear="All">
+        </div>
         <hr>
+        </section>
 
+        <section>
         <!--treats menu-->
-        <h2>Treats Menu</h2>
+        <h2><u>Treats Menu</u></h2>
         <p>Get some delicious treats and enjoy</p>
 
         <h3>Cupcakes, Muffins, Brownies & Cookies Menu</h3>        
         <p>Enjoy some tasteful cupcakes that come in a 6 pack box</p>
         
+        <article class="products-n-menu-card">
         <u><h3><li>Cupcakes</li></h3></u>
-        <img src="Images/CupCakes.jpg" width="255" height="215" align="right">
+        <img src="Images/CupCakes.jpg" alt="Tasty CupCakes" width="255" height="215">
         <li>Chocolate flavoured cupcakes       x6 - <strong>R62.98</strong></li>
         <li>Red Velvet flavoured cupcakes      x6 - <strong>R59.99</strong></li>
         <li>Vanilla Bean flavoured  cupcakes   x6 - <strong>R57.99</strong></li>
@@ -157,44 +193,57 @@
         <li>Banana Caramel flavoured cupcakes  x6 - <strong>R74.88</strong></li>
         <li>Mapple Pecan flavoured cupcakes    x6 - <strong>R74.99</strong></li>
         <br clear="All">
+        </article>
         <hr>
 
+        <article class="products-n-menu-card">
         <u><h3><li>Muffins</li></h3></u>
-        <img src="Images/Di Muffins.jpg" width="220" height="180" align="right">
+        <img src="Images/Di Muffins.jpg" alt="Sweet Muffins" width="220" height="180">
         <li>Blueberry muffins      x6 - <strong>R58.99</strong></li>
         <li>Chocolate chip muffins x6 - <strong>R59.99</strong></li>
         <li>Banana Nut muffins     x6 - <strong>R63.98</strong></li>
         <li>Apple cinnamon muffins x6 - <strong>63.95</strong></li>
         <li>Vanilla muffins        x6 - <strong>R56.99</strong></li>
         <br clear="All">
+        </article>
         <hr>
         
+        <article class="products-n-menu-card">
         <u><h3><li>Brownies</li></h3></u>
-        <img src="Images/Brownies.png" width="280" height="225" align="right">
+        <img src="Images/Brownies.png" alt="Sweet Tasty Brownies" width="280" height="225">
         <li>Chocolate brownies        x6 - <strong>R54.99</strong></li>
         <li>Peanut butter brownies    x6 - <strong>R52.88</strong></li>
         <li>Cream cheese brownies     x6 - <strong>R59.99</strong></li>
         <li>Coffee & Cream brownies   x6 - <strong>R62.95.95</strong></li>
         <li>Cookies & Cream brownies  x6 - <strong>R64.99</strong></li>
         <br clear="All">
+        </article>
         <hr> 
 
+        <article class="products-n-menu-card">
         <u><h3><li>Cookies</li></h3></u>
-        <img src="Images/Cookies.jpg" width="275" height="215" align="right">
+        <img src="Images/Cookies.jpg" alt="Sweet Assorted Cookies" width="275" height="215">
         <li>Chocolate chip cookies x6 - <strong>R59.99</strong></li>
         <li>Peanut butter cookies  x6 - <strong>R58.99</strong></li>
         <li>Raisin cookies         x6 - <strong>R52.98</strong></li>
         <li>Plain cookies          x6 - <strong>R48.00</strong></li>
         <li>M&M's candy cookies    x6 - <strong>R58.95</strong></li>
         <li>Pumkin spice cookies   x6 - <strong>R58.98</strong></li>
-        <br clear="AllS">
-        <hr>
-        </ul>
-
-
-
-        
+        <br clear="All">
+        </article>
+        <hr><hr>
         </section>
+
+           
+
+        <!--See waht u like-->
+        <h3>See what you like</h3>
+        <section>
+            <p>Do u see what u like, you'd like to make an order visit our enquiry page and make ur order there</p>
+            <a href="enquiries.html">Make an Enquiry</a>
+        </section>
+
+
     </main>
      <footer>
         <section>
