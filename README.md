@@ -37,4 +37,13 @@ Repository for part 1 of my Web Development Project
 - 
 
 
+--------------------------------------------------------------------------------------------------
+## Part 2 - 18 September 2026
+-finished updating the 5 html files index.html; about.html; products.html; contact.html; enquiries.html
+- added a logo for my website's webpages and changed the navigation pane to stop being in an unordered list format
+- finished updating my external css file and linked it to all 5 webpages and made ithe webpages to be bakery themed that matches my website's name
+- finished top-ups and errors on the CSS file so the website can work well on devices  of different screen sizes mobile, tablets and desktops and work in different browsers
+- 
+- 
+
 
