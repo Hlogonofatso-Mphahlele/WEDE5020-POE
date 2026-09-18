@@ -3,59 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiries</title>
+    <title>Enquiries | The Golden Bakery</title>
+    <!--Links the enquiry html file to the external CSS stylesheet-->
+    <link rel="stylesheet" href="CSS Files/style.css">
 </head>
 <body>
+    
 
-    <section>
-
-    <!--Web color-->
-    <body bgcolor="#FFD6A0">   
+    <section> 
     <header>
+            <!--Web logo-->
+    <div class="logo">        
+    <p>
+        <img src="Images/TGB LOGO.jpg" alt="The Golden Bakery's Logo" width="120">
+    </p>
+    </div>
     <!--Web heder & Navigation-->
     <h1>Welcome To The Golden Bakery</h1>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="products.html">Menu</a></li>
-            <li><a href="enquiries.html">Enquire</a></li>
-            <li><a href="contact.html">Contact Info</a></li>
-        </ul>
+            <a href="index.html">Home</a> &nbsp; | &nbsp;
+            <a href="about.html">About Us</a> &nbsp; | &nbsp;
+            <a href="products.htmls">Menu</a> &nbsp; | &nbsp;
+            <a href="contact.html">Contact Info</a> &nbsp; | &nbsp;
+            <a href="enquiries.html">Enquiry</a> &nbsp;
     </nav> 
     </section>
     </header>
 
 
-    <hr>
+    <hr><hr>
 
     <section>
     <!--Main Enquiry webpage cotent-->
     <main>
-        <h2>Make an Enquiry</h2>
+        <h2><u>Make an Enquiry</u></h2>
         <p>
             Got a question about our products, services or bookings?
             Complete the form below and our team will respond to ur enquiry.
         </p>
         
         <!--Enquiry form-->
-        <form>
+        <form><fieldset>
             <!--Personal Details-->
-        <label for="Full Name">Enter your full name:</label><br>
-        <input type="text" id="Full Name" name= "Full Name" required><br><br>
+            <legend> Personal Details</legend>
 
+        <p>    
+        <label for="FullName">Enter your full name:</label><br>
+        <input type="text" id="FullName" name= "Full Name" required><br><br>
+         </p>
+         
+        <p> 
         <label for="Phone Number">Enter your phone number:</label><br>
         <input type="number" id="Phone Number" name= "Phone Number" required><br><br>
-
+        </p>    
         <label for="Email">Enter your email address:</label><br>
         <input type="text" id="Email" name= "Email Address" required><br><br>
+        </fieldset>
         <hr>
           
         <!--Services Details-->
-        <label for="Date">Enter the day u want it:</label><br>
-        <input type="date" id="Occasion Date" name= "Occasion Date" required><br><br>
-        
-        <select id="products" name="Enter the produts you'd like to order">
+        <fieldset>
+        <legend>Service Details</legend>
+    
+        <p>
+        <label for="OccasionDate">Enter the day u want it:</label><br>
+        <input type="date" id="OccasionDate" name= "OccasionDate" required><br><br>
+        <p>
+         
+        <p>    
+        <select id="products" name="products" required>
+            <option value=" ">Please select a product</option>
             <option value="customDesignProduct">Custom Design Product</option>
             <option value="fullcakes">Full Cakes</option>
             <option value="cakeSlices">Cake Slices</option>
@@ -67,30 +84,45 @@
             <option value="browniesTreats">Brownies</option>
 
         </select>
-        <br><br> 
+        </p>
+         
+        <p>
         
         <label for="eventtype">Enter the type of event/occasion</label>
-        <input type="text" id="eventtype" name="eventtype"><br><br>
-         
+        <input type="text" id="eventtype" name="eventtype"><br>
+        </p>
+
+        <p>
         <label for="Servings">Enter the number of products/servings you want for things u can get singularly (eg. cakes, bread):</label><br>
         <input type="number" id="Servings"  min="1" max="45" name= "Servings"><br><br>
-
+        </p>
+        
+        <p>
         <label for="Servingz">Enter the number of items u want for products that come in packs of 4 or 6 (eg.cupcakes, muffins cookies etc):</label><br>
         <input type="number" id="Servingz"  min="" max="10" name= "Servinzs"><br><br>
+        </p>    
 
-
+        <p>
         <label for="Additional Message">Enter any additional message u have:</label><br>
         <textarea id="Additional Message" rows="10" cols="50"  name= "Additional Message" required></textarea><br>
+        </p>
+        </fieldset>
 
+        <fieldset>
+        <legend>Delivery or Pick up</legend>
+        <p>
         <label for="deliver/pickup">Would u like your order delivered or wanna come pick it up?</label><br>
         <select id="Delivery/Pickup" name="Would you like u food deliverd or wanna pickup?">
             <option value="deliverymethod">Delivery</option>
             <option value="pickupmethod">Pick-up </option>            
         </select>
+        </p>
+        </fieldset>
 
         <!--Enquiry Submition & Deletion/Reset-->
         <p>
-            <button type="">Submit Enquiry</button>
+            <button type="submit">Submit Enquiry</button>
+            <button type="reset">Clear Form</button>
         </p>
 
 
