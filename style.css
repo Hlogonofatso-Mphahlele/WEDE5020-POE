@@ -1,402 +1,271 @@
-/*================================================================
-The Golden Bakery's Main Stylesheet
-==================================================================*/
+/*================================================
+The Golden Bakery's - Main External CSS Stylesheet
+==================================================*/
 
-/*===============================================================
-2.2 Base styles:
-=================================================================*/
-
-/*css reset to delete browsers default margin and paddings so user can control them by themselvs*/
-
+/*====================================
+2. CSS Reset and Base Styling
+======================================*/
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/*sizing the html files using px*/
 html{
     font-size: 16px;
     scroll-behavior: smooth;
 }
 
-/*Basic styling for the whole website*/
 body{
-    font-size: 1rem;
-    font-family: 'Pacifico', sans-serif;
-    color:#3B2A20;
-    background-color: #FFF8Ef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3B2A20;
+    background-color: #FFF8EF;
     line-height: 1.6;
 }
 
-/*sizing headers, main and footers*/
-main, header, footer{
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-
-/*=========================================
-2.3 Typography
-============================================*/
+/*============================================
+2. Typograpgy Styling
+==============================================*/
 h1{
-    color: #4B2E1F;
-    font-size: 2.8rem;
-    font-weight: 800;
-    line-height: 1.25;
-    letter-spacing: 0.25em;
+    font-size: 2.75rem;
+    color: #4B2E1F;;
+    margin-bottom: 0.5rem;
 }
 h2{
-    color:#8B4513;
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 1.45;
-    letter-spacing: 0.2em;
+    font-size: 2.25rem;
+    color:  #8B4513;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #D4A373;
+    padding-bottom: 0.45rem;
 }
 h3{
+    font-size: 2.85rem;
     color: #6F3D1F;
-    font-size: 2.2rem;
-    font-weight: 400;
-    line-height: 1.65;
+    margin-bottom: 0.65rem;
 }
 
 p{
-    font-size: 1.9rem;
-    line-height: 1.85;
-}
-a{
-    font-weight: 550;
-    text-decoration: none;
-    color:#8B4513;
-}
-li{
-    margin-bottom: 0.5rem;
-}
-ul{
-    padding-left: 1.5rem;
-}
-
-/*======================================================
-2.4 Layout Structure
-========================================================*/
-
-/*Navigation  & header layout structure*/
-header{
-    padding: 2rem 0;
-    background-color: #D4A373;
-    border-bottom: 5px solid #8B4513;
-    text-align: center;
-}
-nav{margin-top: 1.5rem;}
-
-nav ul{
-    padding: 10px;
-    background-color: #be9259;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-direction: row;
-}
-
-nav a{
-    color: #533C2E;
-    background-color: #F6D7A7;
-    padding: 0.75rem 1.25rem;
-    border: 1.25px solid #B8793B;
-    border-radius: 0.55rem;
-    display: block;
-    transition: 0.35s ease;
-
-}
-
-/*webpage sections layout structyue*/
-.about-the-golden-bakery,.our-mission,
-.our-values, .our-vission, .our-customer-favourites,
-.products-n-menu {
-    padding: 20px;
-    background-color: #FFFFFF;
-    border-radius: 0.5rem;
-    box-shadow: 0 2.5px 8.5px rgba(59, 42, 32, 0.085);
-}
-
-/*enquiry form layout structure styling*/
-form{
-    padding: 22px;
-    border: 1px solid #6b4226;
-    border-radius: 8px;
-    background-color: #b37247;
-    width: 100%;
-    max-width: 750px;
-}
-fieldset{
-    margin-bottom: 1.5rem;
-    padding: 1.5rem;
-    border: 1.25px solid #D4A373;
-    border-radius: 0.75rem;
-}
-legend{
-    font-size: 1.25rem;
-    font-weight: 700;
-    padding: 0 0.75rem;
-}
-input, textarea, select{
-    font-size: 1rem;
-    font-family: inherit;
-    padding: 0.75rem;
-    width: 100%;
-    margin-top: 0.45rem;
-    background-color: #FFFDF9;
-    border: 1.25px solid #C8A27A;
-    border-radius: 0.45rem;
-}
-label{font-weight: 600;}
-textarea{resize: 0.45rem;}
-
-/*footer layout structure styling*/
-footer{
-    padding: 1rem;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #4B2E1F;
-    text-align: center;
-}
-
-
-/*=======================================
-2.5 Visual Style
-=========================================*/
-
-/*Navigation hovering, focussing and active effects*/
-nav a:hover{
-    color: #FFFFFF;
-    background-color: #8B4513;
-}
-nav a:active{
-    color: #FFFFFF;
-    background-color: #5C2F14;
-}
-nav a:focus{
-    outline: 3.5px solid #D4A373;
-    outline-offset: 2.25px;
-}
-
-/* button effect styling*/
-button{
-    color: #FFFFFF;
-    background-color: #8B4513;
-    padding: 0.80em 1.20em;
-    border: none;
-    border-radius: 0.45rem;
-    font-weight: 650;
-    margin-top: 15px;
-    box-shadow: 0 2px 5px rgba(59, 42, 32, 0.25);
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #5C2F14;
-}
-
-button:focus{
-    outline: 3px solid #D4A373;
-    outline-offset: 2.25px;
-}
-
-button:active{
-    transform: translateY(1.25px);
-}
-
-
-.logo img{
-    height: 120px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 0;
-    box-shadow: none;
-}
-
-
-/*================================================
-3.1 Breakpoints
-==================================================*/
-/*desktop screen sizes responsive design styiling*/
-@media(min-width: 769px){
-    /*horizontal navigation*/
-    nav ul{
-        gap: 20px;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    /*product grid to have 4 columns*/
-    .products-n-menu-grid{
-        display: grid;
-        gap: 1.75rem;
-        grid-template-columns: repeat(4, 1fr);
-    }
-    /*web section padding*/
-    .about-the-golden-bakery, .our-customer-favourites, .our-mission,
-    .our-vission, .our-values, .products-n-menu{
-        padding: 20px;
-    }
-
-    /*enquiry form styling to scale normally*/
-    form input, form select, form textarea{
-        font-size: 1rem;
-    }
-/*footer styling so text can fit and shhow wel*/
-footer{
-    font-size: 1rem;
-}
-
-
-}
-
-
-/*tablet screen size responsive design styling*/
-@media(max-width: 768px){
-    /*vertically stacked navigation*/
-    nav ul{
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-        /*about us section; our mission, values, customer favs, vision and products section: reducing padding for smaller screens*/
-    .about-the-golden-bakery, .our-customer-favourites,
-    .our-mission, .our-values,.our-vission,.products-n-menu{
-        padding: 15px;
-    }
-
-    /*styling for products to be in a colum format*/
-    .products-n-menu-grid{
-    gap: 15px;
-    grid-template-columns: 1fr 1fr;
-    }
-
-    /*form styling for tablets devices*/
-    form input,
-    form textarea, form select{
-    font-size: 0.95rem;
-    }
-}
-
-/*Mobile device screens responsive designs*/
-@media (max-width: 475px){
-    /*styling the navigation to be in a stacked form*/
-    nav ul{
-        gap: 8px;
-        flex-direction: column;
-    }
-    /*reducing heading sizes to fit well*/
-    h1{font-size: 1.8rem;}
-    h2{font-size: 1.5rem;}
-    h3{font-size: 1.2rem;}
-
-    /*styling to keep products in 1 column format*/
-    .products-n-menu-grid{
-        grid-template-columns: 1fr;
-    }
-
-    /*styling to keep the forms to fit in phone screens*/
-    form textarea, form select,
-    form input{
-        width:100%;
-        font-size: 0.8rem;
-    }
-
-    /*sizing the footer to fit in small screes*/
-    footer{
-        font-size: 0.8rem;
-    }
-
-}
-
-/*===================================================
-3.2 Relative Units
-====================================================*/
-
-/*Styling to keep thparagrapgh text, buttons and images to show n fit well in different devices using rems, ems and percentages*/
-p{font-size: 1rem;}
-
-button{padding: 0.8em 1.25em;}
-
-
-
-/*=======================================================
-3.3 Responsive Images
-=======================================================*/
-/*Styling the logo image to stay neat*/
-.logo img{
-    height: auto;
-    width: 120px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 0;
-    box-shadow: none;   
-}
-
-/*styling the product images to remain neat in different devices and browse*/
-.products-n-menu-card{
-    height: auto;
-    width: 100%;
-    max-width: 100%;
-    object-fit: cover;
-}
-img{
-    max-width: 100%;
-    height: auto;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
-}
-
-
-
-/*==============================================
-3.4 Test and Iterations
-===============================================*/
-
-
-/*Styling accessibility features to ensure focus for keyboard users, improve readablility for links and adding high contrast modes for important sections and improving a screen reader only class*/
-a:focus,button:focus,
-input:focus, textarea:focus{
-    outline: 3px solid #D4A373;
-    outline-offset: 3px;
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
 }
 
 a{
     color: #8B4513;
-    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.35s;
+    text-decoration: none;
+}
+a :hover{
+    color: #5C2F14;
+    text-decoration: wavy;
 }
 
-@media(prefers-contrast: more){
-    body{
-        color: black;
-        background-color: #FFFFFF;
+/*==============================
+2. Layout Structure Styling
+===============================*/
+header, main, footer{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Desktop Header Layout Structure*/
+header{
+    background-color: #D4A373;
+    padding: 1.5rem 0;
+    border-bottom: 5px solid #8B4513;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/*Logo Styling*/
+.logo img{
+    width: 115px;height:auto;
+    margin-bottom: 0.85rem;
+    border-radius: 8rem;
+}
+/*Navigation Styling*/
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 1.2rem;
+}
+nav a {
+    display:inline-block;
+    color: #F6D7A7;
+    background-color: #533C2E;
+    border: 1px solid #B8793B;
+    border-radius: 6px;
+    padding: 0.65rem 1.35rem;
+    transition: all0.35s ease;
+}
+nav a:focus, nav a :hover{
+    color: #FFF;
+    background-color: #8B4513;
+    text-decoration: none;
+}
+nav a:active{
+    background-color: #5C2F14;
+}
+
+/*Main content sections styling*/
+main section{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 1.85rem;
+    margin-bottom: 1.85rem;
+    box-shadow: 0 3px 10px rgba(59, 42, 32, 0.085);
+}
+
+*/Product Grid Styling*/
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+}
+.product-card{
+    background-color: #FFFDF9;
+    border: 1px solid #E8D5C0;
+    border-radius: 10px;
+    padding: 1.2em;
+    text-align: center;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.product-card :hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 1.1);
+}
+.product-card img{
+    border-radius: 8px;
+    margin-bottom: 0.85rem;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/*Form Styling*/
+form{
+    background-color: #FDF6EC;
+    border: 1px solid #D4A373;
+    border-radius: 10px ;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 700px;
+}
+
+fieldset{
+    border: 1px solid #D4A373;
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+legend{
+    color: #4B2E1F;
+    padding: 0 0.65rem;
+    font-weight: 700;
+}
+
+label{
+    font-weight: 600;
+    display: block;
+    margin-top: 0.3rem;
+}
+
+input, select, textarea{
+    font-family: inherit;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #C8A27A;
+    border-radius: 6px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    color: white;
+    background-color: #8B4513;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    padding: 0.85rem 1.8rem;
+    margin-right: 0.85rem;
+    transition: background-color 0.35s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #5C2F14;
+}
+button:focus{
+    outline: 3px solid #D4A373;
+    outline-offset: 2px;
+}
+
+/*Footer Layout Styling*/
+footer{
+    color: #FFF;
+    background-color: #4B2E1F;
+    border-radius: 8px 8px 0 0;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer p{
+    color: #FFF;
+    margin: 0.3rem 0;
+}
+
+/*===============================
+3.Rsponsive Design Styling
+================================*/
+
+/*responsive Design For Tablet Devices*/
+@media (max-width: 768px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
     }
-    nav a{
-        color: #FFFFFF;
-        background-color: black;
+    
+    h1{font-size: 2rem;}
+    h2{font-size: 1.65rem;}
+
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-.sr-only{
-    padding: 0;
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    position: absolute;
-    border: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+/*Responsive DEsign Styling For Mobile Devices*/
+@media (max-width: 480px){
+    body{font-size: 15px;}
+    h1{font-size: 175rem;}
+    h2{font-size: 145rem;}
+
+    .products-grid{
+        grid-template-columns: 1fr;
+    }
+
+    header, main, footer{
+        width: 90%;
+    }
+    form{padding: 1.25rem;}
 
 }
 
 
-
+/*==================================
+Responsive Design Styling For Images 
+=======================================*/
+img {max-width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 
