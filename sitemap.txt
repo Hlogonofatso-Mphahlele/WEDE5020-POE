@@ -24,26 +24,73 @@
 |----- Web Dev POE/
 |           
 |---------The Golden Bakery/
-
------------------------------------------
-|------ HTML Files/
+|
+|
 |----- index.html
 |----- about.html
 |----- products.html
 |----- contact.html
 |----- enquiries.html
-|----- sitemap.html
------------------------------------------
-
+|
+|
+|----- sitemap.txt
+|
+|----- sitemap.xml
+|----- robots.txt
 |
 |------- CSS Files/
-|
-|
+|           └── style.css
 |
 |
 |------- JavaScript Files/
+|           └── script.css
 |
 |
+|______Images/
+       └── TGB LOGO.jpg
+       └── Full Cakes.jpg
+       └── Cake Slices.jpg
+       └── Marotho.png
+       └── Scones.jpg
+       └── Cupcakes.jpg
+       └── Brownies.jpg
+       └── DiMuffins.png
+       └── Cookies.jpg
+|
+|
+|______Image Proof Of Web Runninf In Different Devices and Browsers For Part 2/
+              └──chrome runing image 1.png
+              └──galaxy z fold edge.png
+              └──Galazy Z Fold in Chrome.png
+              └──iPad Mini (6th gen) iPadOS 18.6 in firefox.png
+              └──ipad mini chrome.png
+              └──ipad mini edge.png
+              └──iPad mini in Chrome.png
+              └──ipad pro 13 edge.png
+              └──iphone 16 edge.png
+              └──iPhone 16 Pro in Chrome.png
+              └──iPhone SE in Chrome.png
+              └──iphone16 chrome.png
+              └──Laptop with HiDPI screen in firefox.jpg
+              └──Laptop with MDPI screen in firefox browser.jpg
+              └──nest hub max chrome.png
+              └──nest hub max edge.png
+              └──Nest Hub Max in Chrome.png
+              └──Nest Hub Maz in Edge.png
+              └──pixel 9 chrome.png
+              └──pixel 9 pro fold chrome.png
+              └──Pixel 9 Pro in Chrome.png
+              └──samsung 05 chrome.png
+              └──samsung a55 edge.png
+              └──Samsung Galaxy A55 in Chrome.png
+              └──Surface Pro 7 in Edge.png
+              └──surface pro 10 chrome.png
+              └──surface pro 10 edge.png
+              └──Surface Pro 10 in Edge.png
+              └──galaxy z fold edge.png
+              
+
+        
 
 
 
