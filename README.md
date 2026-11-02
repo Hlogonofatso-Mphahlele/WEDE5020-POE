@@ -23,7 +23,7 @@
 - **Part 2: I focussed on CSS styling and making webpages have a responsive design so it can act a certain way when users do things like clicking on buttons, images etc
 - **Part 3: I focussed on implemeting Java Script and ensure that it fuctions, improved form validation, SEO optimisation and deployed the project on netlify
 
-** Live Website: **[wede5020-poe-part-3.netlify.app]
+** Live Website: **[https://wede5020-poe-part3.netlify.app/]
 
 ---
 
