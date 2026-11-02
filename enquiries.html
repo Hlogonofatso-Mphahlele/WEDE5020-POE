@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiries | The Golden Bakery</title>
+    
+    <!--Title for the enquiries page-->
+    <title>Make an Enquiry | The Golden Bakery</title>
+    
+    <!--Meta description encouraging users to send enquiries-->
+    <meta name="description" content="Send us an enquiry">
+   
+    <!--keywords related to enquiries and orders-->
+    <meta name="keywords" content="cake enquiry, order custom design, bakery enquiry">
+    
     <!--Links the enquiry html file to the external CSS stylesheet-->
     <link rel="stylesheet" href="CSS Files/style.css">
 </head>
@@ -22,11 +31,13 @@
     <h1>The Golden Bakery</h1>
     <p>Freshly baked with care; love and quality bakers and ingridients</p>
     <nav>
+        <p>
             <a href="index.html">Home</a> &nbsp; | &nbsp;
             <a href="about.html">About Us</a> &nbsp; | &nbsp;
-            <a href="products.htmls">Menu</a> &nbsp; | &nbsp;
-            <a href="contact.html">Contact Info</a> &nbsp; | &nbsp;
-            <a href="enquiries.html">Enquiry</a> &nbsp;
+            <a href="products.html">Menu</a> &nbsp; | &nbsp;
+            <a href="contact.html">Contact Us</a> &nbsp; | &nbsp;
+            <a href="enquiries.html">Enquiries</a> &nbsp; 
+        </p>
     </nav> 
     </section>
     </header>
@@ -39,37 +50,53 @@
     <main>
         <h2><u>Make an Enquiry</u></h2>
         <p>
-            Got a question about our products, services or bookings?
+            Got a question about our products, prices, availability, services or bookings?
             Complete the form below and our team will respond to ur enquiry.
         </p>
         
-        <!--Enquiry form-->
+        <!--Enquiry form for AJAX and Netlify-->
         <section>
-            <form action="#" method="post">
+            <form 
+                    id="enquiry-form" 
+                    name="enquiry"
+                    action="/The Golden Bakery/Web Files/enquiries.html"
+                    method="post"
+                    netlify-honeypot="bot-field">
+
+                    <!--For the didden field foe Netlify form identification-->
+                    <input type="hidden" name="form-name" value="enquiry">
+
+                    <!--protection field for spams-->
+                    <p hidden>
+                        <label>
+                            Do not fill rhis in:
+                            <input name="bot-field">
+                        </label>
+                    </p>
 
                 <!--Personal Details-->
                 <fieldset>
                     <legend>Personal Details></legend>
-                    <label for="fullName">Full Name:</label>
-                    <input type="text" id="fullName" name="fullName" required>
+                    <label for="fullName">Full Name: </label>
+                    <input type="text" id="fullName" name="fullName" autocomplete="name" required>
 
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <label for="phoneNumber">Phone Number: </label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="tel" required>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="emailAddress">Email: </label>
+                    <input type="emailAddress" id="email" name="emailAddress" autocomplete="email" required>
                 </fieldset>
 
                 <!--Odering Details-->
                 <fieldset>
                     <legend>Oder Details</legend>
 
-                    <label for="OccasionDate">Date:</label>
-                    <input type="date" id="OccasionDate" name="OccasionDate" required>
+                    <label for="occasionDate">Date: </label>
+                    <input type="date" id="OccasionDate" name="occasionDate" required>
 
-                    <label for="products">Select Product:</label>
+                    <label for="products">Select Product: </label>
                     <select id="products" name=" products">
-                        <option value="">Please Select a Product</option>
+                        <option value="">Please Select a Product:</option>
                         <option value="customDesignProduct">Custom Design Products</option>
                         <option value="fullcakes">Full Cakes</option>
                         <option value="cakeSlices">Cake Slices</option>
@@ -81,14 +108,14 @@
                         <option value="cookies">Cookies</option>
 
                     </select>
-                    <label for="eventType">Type of Event/Occassion</label>
+                    <label for="eventType">Type of Event/Occassion (optional) :</label>
                     <input type="text" id="eventType" name="eventType">
 
-                    <label for="servings">Number of Servings/Items Wanted: </label>
-                    <input type="number" id="servings" name="servings">
+                    <label for="quantity">Quantity of (cakes, slices, loaves or packs) wanted: </label>
+                    <input type="number" id="quantity"  min="1" max="100" step="1" name="quantity" required>
 
-                    <label for="message">Additional Message: </label>
-                    <textarea id="message" name="message" rows="5"></textarea>
+                    <label for="addMessage">Additional Message (optional) : </label>
+                    <textarea id="message" name="addMessage" rows="10"></textarea>
 
                 </fieldset>
 
@@ -97,23 +124,28 @@
                     <legend>Delivery or Collection</legend>
 
                     <label for="deliverymethod">Preferred Method: </label>
-                    <select id="deliverymethod" name="deliverymethod">
-                        <option value="deliver">Delivery</option>
+                    <select id="deliverymethod" name="deliverymethod" required>
                         <option value="pickup">Pick-up/Collection</option>
+                        <option value="deliver">Delivery (Delivery Fee is R50 for orders less than R500 and free for orders over R500)</option>
+                        
                     </select>
                 </fieldset>
 
                 <!--Location to deliver-->
                 <fieldset>
-                    <legend>Location to Deliver</legend>
+                    <legend>Delivery Address</legend>
                     <label for="deliveryLocation">Address to Deliver At: </label>
-                    <input type="text" id="deliveryLocation" name="deliveryLocation">
+                    <input type="text" id="deliveryLocation" name="deliveryLocation" autocomplete="street-address">
                 </fieldset>
 
                 <button type="submit">Submit Enquiry</button>
                 <button type="reset">Clear Form</button>
 
+                <!--Shows validation errors and submission feedback-->
+                <p id="enquiry-error" role="alert" aria-live="polite"></p>
+                <p id="enquiry-response" role="status" aria-live="polite"></p>
             </form>
+                       
         </section>
 
         <section>
@@ -132,7 +164,11 @@
         </p>
     </footer>
 
-</body>
+    <!--Links the Java Script Form Validation file to the enquries.html webpage file-->
+    
+    <script src="JavaScript Files/script.js" defer></script>
+   
 
+</body>
 </html>
 
