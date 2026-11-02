@@ -1,0 +1,50 @@
+<!--WEDE5020 POE PART 3: SEO - sitemap.xml File-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The sitmape helps search enginges understand the structure of the website-->
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
+
+<!--Homepage - highest priority-->
+<url>
+    <loc>https://wede5020-poe-part3.netlify.app/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <priority>1.0</priority>
+</url>
+
+<!--About webpage-->
+<url>
+    <loc>https://wede5020-poe-part3.netlify.app/about</loc>
+    <lastmod>2026-10-02</lastmod>
+    <priority>0.8</priority>
+</url>
+
+<!--Products page-->
+<url>
+    <loc>https://wede5020-poe-part3.netlify.app/products</loc>
+    <lastmod>2026-10-02</lastmod>
+    <priority>0.9</priority>
+</url>
+
+<!--Contact page-->
+<url>
+    <loc>https://wede5020-poe-part3.netlify.app/contact</loc>
+    <lastmod>2026-10-02</lastmod>
+    <priority>0.7</priority>
+</url>
+
+<!--Enquiry webpage-->
+<url>
+    <loc>https://wede5020-poe-part3.netlify.app/enquiries</loc>
+    <lastmod>2026-10-02</lastmod>
+    <priority>0.8</priority>
+</url>
+
+</urlset>
+
+
+
+
+
+
+
+

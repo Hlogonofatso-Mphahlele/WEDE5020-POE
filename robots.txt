@@ -1,0 +1,16 @@
+# === WEDE5020 POE: The Gol
+# Allows search engines crawlers to be able to access the website
+
+
+User-agent: *
+Allow: /
+
+# Link to the sitemap so search engines can find all pages easily
+Sitemap: tangerine-pixie-6f1944.netlify.app/sitemap.xml
+
+
+
+
+
+
+
