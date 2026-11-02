@@ -9,10 +9,24 @@
 - **Student Name: Hlogonofatso Fortune Mphahlele
 - **Module:WEDE5020 - Web Development (Introduction)
 - **Institution: IIE Rosebank International
+- **Campus : Polokwane
+
+---
+
 
 ## 1. Project Overview
 -----------------------
--This is the official website for the Golden Bakery, a fictional bakery owned by Big H
+- This is the official website for the Golden Bakery, a      fictional bakery owned by Big Solitude H
+- The project's website in now fully functional, responsive and is SEO optimised
+- I made in in 3 parts in a course of 5 months.
+- **Part 1: ** Focused on HTML Structuring and content, and planning
+- **Part 2: I focussed on CSS styling and making webpages have a responsive design so it can act a certain way when users do things like clicking on buttons, images etc
+- **Part 3: I focussed on implemeting Java Script and ensure that it fuctions, improved form validation, SEO optimisation and deployed the project on netlify
+
+** Live Website: **[wede5020-poe-part-3.netlify.app]
+
+---
+
 
 ## Website Goals and Objectives
 - The main final goal is to make a well functional website for a fictional bakery that has 5 webpages made using html for structuring; CSS for web styling; JavaScript for functionality of the website
@@ -21,13 +35,17 @@
 
 - what imma do is: 
                   **CSS styling and making a responsive design
-                  ** JavaScript, validation forms, SEO and making final enhancements
+                  ** JavaScript, validation forms, SEO and making final enhanced
+
+- The website now allows customers to sub,it enquiries and recieve feedback on required things they missed to fill
+- The website now also has a clear contact information n a map that shows the bakery's location, operating hours, FAQs, Location
+- And i also managed to optimise it for search engines
 
 ## Key Features and Functionality for Part 1
 - 5 fully linked HTML webpages
-- clear simple navigation system
-- products enquiry
+- clear simple consistent navigation system
 - product listing with prices
+- basic enquiry and contact enquiry 
 
 ## Files Made
 - index.html - Homepage: 
@@ -36,27 +54,74 @@
 - contact.html - Contact Info: 
 - enquiries.html - Enquiry: 
 - The Project is Made as Follows:
-Web Dev POE/
-    |
-    |---The Golden Bakery/
-        |---Web Files/
-            |---index.html
-            |---about.html
-            |---products.html
-            |---contact.hmtl
-            |---enquiries.html
-            |
-            |---ChangeLog.Md
-            |---README.md
-            |---sitemap.txt
-            |---CSS Files/
-                |---style.css
-            |
-            |---JavaScript Files/
-                |---  
-            |
-            |---Images/
-            |---Image proof of webpages running in different devices and browsers/
+- |
+|----- Web Dev POE/
+|           
+|---------The Golden Bakery/
+|
+|
+|----- index.html
+|----- about.html
+|----- products.html
+|----- contact.html
+|----- enquiries.html
+|
+|
+|----- sitemap.txt
+|
+|----- sitemap.xml
+|----- robots.txt
+|
+|------- CSS Files/
+|           └── style.css
+|
+|
+|------- JavaScript Files/
+|           └── script.css
+|
+|
+|______Images/
+       └── TGB LOGO.jpg
+       └── Full Cakes.jpg
+       └── Cake Slices.jpg
+       └── Marotho.png
+       └── Scones.jpg
+       └── Cupcakes.jpg
+       └── Brownies.jpg
+       └── DiMuffins.png
+       └── Cookies.jpg
+|
+|
+|______Image Proof Of Web Runninf In Different Devices and Browsers For Part 2/
+              └──chrome runing image 1.png
+              └──galaxy z fold edge.png
+              └──Galazy Z Fold in Chrome.png
+              └──iPad Mini (6th gen) iPadOS 18.6 in firefox.png
+              └──ipad mini chrome.png
+              └──ipad mini edge.png
+              └──iPad mini in Chrome.png
+              └──ipad pro 13 edge.png
+              └──iphone 16 edge.png
+              └──iPhone 16 Pro in Chrome.png
+              └──iPhone SE in Chrome.png
+              └──iphone16 chrome.png
+              └──Laptop with HiDPI screen in firefox.jpg
+              └──Laptop with MDPI screen in firefox browser.jpg
+              └──nest hub max chrome.png
+              └──nest hub max edge.png
+              └──Nest Hub Max in Chrome.png
+              └──Nest Hub Maz in Edge.png
+              └──pixel 9 chrome.png
+              └──pixel 9 pro fold chrome.png
+              └──Pixel 9 Pro in Chrome.png
+              └──samsung 05 chrome.png
+              └──samsung a55 edge.png
+              └──Samsung Galaxy A55 in Chrome.png
+              └──Surface Pro 7 in Edge.png
+              └──surface pro 10 chrome.png
+              └──surface pro 10 edge.png
+              └──Surface Pro 10 in Edge.png
+              └──galaxy z fold edge.png
 
 
 
@@ -70,7 +135,7 @@ Web Dev POE/
 
 =========================================
 
-### README For Part 2
+## README For Part 2
 -----------------------
 -----------------------
 
@@ -82,39 +147,7 @@ Web Dev POE/
 - intergrated responsve images with sizes and srcset nut not using the html paage file instead i used css but made the images responsive and behave well, fit well and show well in different devices and browsers without the texts "scrset and sizes"
 - I added accessibility features eg (focus high contrats modes, screen reader text, hovers and actives)
 
-  ## Screenshots of the webpages running in different devices and browsers
-- <img width="1286" height="764" alt="chrome runing image 1" src="https://github.com/user-attachments/assets/5247dd6f-b230-486a-9e0e-63e6b135e365" />
-- <img width="1339" height="681" alt="galaxy z fold edge" src="https://github.com/user-attachments/assets/bb3c5f62-77f8-4166-a258-4d98ec7e4c8b" />
-- <img width="1285" height="605" alt="ipad mini chrome" src="https://github.com/user-attachments/assets/dc2fe7a6-e513-4317-a675-81863205a277" />
-- <img width="1353" height="650" alt="ipad mini edge" src="https://github.com/user-attachments/assets/54f55f89-cbd6-43ed-b1ea-82360d6963cd" />
-- <img width="1343" height="647" alt="ipad pro 13 edge" src="https://github.com/user-attachments/assets/cc1254b3-9102-4411-b196-0c2f37603338" />
-- <img width="1327" height="690" alt="iphone 16 edge" src="https://github.com/user-attachments/assets/9b634997-f424-458d-9444-966f227b6034" />
-- <img width="958" height="623" alt="iphone16 chrome" src="https://github.com/user-attachments/assets/1917ef13-3495-479e-b580-d48b42da6a20" />
-- <img width="1353" height="629" alt="nest hub max chrome" src="https://github.com/user-attachments/assets/0b3bc43f-e544-47f4-aa2d-7f7e00994235" />
-- <img width="1337" height="645" alt="nest hub max edge" src="https://github.com/user-attachments/assets/0284e75e-2555-4633-9dc8-39d2eecd31b1" />
-- <img width="1310" height="686" alt="pixel 9 chrome" src="https://github.com/user-attachments/assets/72547d72-e284-4de6-8b37-68f872dcb63d" />
-- <img width="1340" height="625" alt="pixel 9 pro fold chrome" src="https://github.com/user-attachments/assets/93ddd1a9-c169-4339-b472-10ca84198e70" />
-- <img width="1005" height="441" alt="samsung 05 chrome" src="https://github.com/user-attachments/assets/58750779-8dcc-4b0f-915d-67925f0d1846" />
-- <img width="1360" height="688" alt="samsung a55 edge" src="https://github.com/user-attachments/assets/9df11949-9752-4558-b5de-e557e09a52bd" />
-- <img width="1362" height="699" alt="surface pro 10 chrome" src="https://github.com/user-attachments/assets/47f3cc41-8a6a-4e28-8cbc-314f9d55db1e" />
-- <img width="1354" height="626" alt="surface pro 10 edge" src="https://github.com/user-attachments/assets/3ce89735-5f58-4d6a-a240-31441e16ab0a" />
-
-
-
-
-
-
-- 
-
-
-
-
-
-
-- 
-  
-
-## 10. References
+#### References
 
 - Mozilla Developer Network (MDN). *HTML: HyperText Markup Language.* https://developer.mozilla.org/en-US/docs/Web/HTML
 - Mozilla Developer Network (MDN). *CSS: Cascading Style Sheets.* https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -122,5 +155,45 @@ Web Dev POE/
 - Mozilla Developer Network (MDN). *CSS media queries.* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
 - Mozilla Developer Network (MDN). *CSS Grid Layout.* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
 - Mozilla Developer Network (MDN). *Using Flexbox.* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+
+===================================
+## Readme For Part 3
+-----------------------------------
+-----------------------------------
+- Added SEO (title tags, meta descriptions, keywords)
+- I created robots.txt and sitemap.xml files
+- Created a java script file called script.js and linked it to the products, contact, and enquiries html webpage files
+- Updated CSS style.css file and products.html; enquiries.html; contact.html files to function together along with the java script file
+- I also deployed my live website
+- Then i tested the way in which i made did to work on different devices and brrowsers
+
+## Techinques and tools used
+- ** I used HTML, CSS and JavaScript coding languages
+- ** I used Flesbox & CSS grid layout styling techiques
+- ** Then for responsive design i used media queris and relative units
+- ** Then i used Netlify to deply the website
+
+#### Web Testing
+The website was tested on the following :
+ ** Browsers:**
+ - MS Edge
+ - Mozilla Firefox 
+ - Google Chrome
+
+ **Devices:**
+ - Tablet:
+ - Mobile:
+ - Desktop: 
+
+#### References
+## References
+- Mozilla Developer Network (MDN). (2026). *HTML elements reference*. Available at: https://developer.mozilla.org (Accessed: 28 October 2026).
+- Mozilla Developer Network (MDN). (2026). *CSS reference*. Available at: https://developer.mozilla.org (Accessed: 28 October 2026).
+- W3Schools. (2026). *HTML and CSS tutorials*. Available at: https://www.w3schools.com (Accessed: 25 October 2026).
+- W3Schools. (2026). *JavaScript form validation*. Available at: https://www.w3schools.com (Accessed: 29 October 2026).
+- Ms Maggie Kalembo class lessons and guides
+
+
+
 
 
