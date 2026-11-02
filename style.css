@@ -268,7 +268,40 @@ img {max-width: 100%;
 }
 
 
+/* Shows form validation errors*/
+#enquiry-error,
+#contact-error {
+    color: red;
+    font-weight: bold;
+}
+
+/*Shows the enquiry forms validation confirmation*/
+#enquiry-response {
+    color: #245C2A;
+    font-weight: bold;
+}
+
+#close-lightbox {
+    display: block;
+    margin: 0 0 1rem auto;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
 
 
+/*responsive map styling*/
+.map-section{
+    width: 100%;
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 2rem auto;
+}
 
+.map-section iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border: 5;
+    border-radius: 10px;
+}
 
